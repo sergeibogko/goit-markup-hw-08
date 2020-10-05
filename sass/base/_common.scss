@@ -1,0 +1,30 @@
+body {
+  background-color: $fons-color;
+  color: $primery-text-color;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flexbox {
+  display: flex;
+}
+.title {
+  color: $primery-text-color;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}

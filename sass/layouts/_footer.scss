@@ -1,0 +1,73 @@
+.footer {
+  background-color: #2f303a;
+  height: 252px;
+}
+.logo {
+  width: 145px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin: 0px;
+
+  color: $fons-color;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.1;
+}
+.address {
+  width: 230px;
+  margin: 0px;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  display: inline-block;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer-adress {
+  width: 251px;
+}
+.address-text {
+  margin-bottom: 10px;
+
+  color: $fons-color;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1/71;
+  letter-spacing: 0.03em;
+}
+.footer-element {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer-adress a {
+  padding-bottom: 9px;
+}
+.footer-link {
+  color: $footer-link-color;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.join {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+.join-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  width: 145px;
+}

@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 1px solid #ececec;
+
+  & a:hover svg,
+  &r a:focus svg {
+    fill: $accent-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & a:hover,
+  & a:focus {
+    color: $accent-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & .flexbox {
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+.accent {
+  color: $accent-color;
+}
