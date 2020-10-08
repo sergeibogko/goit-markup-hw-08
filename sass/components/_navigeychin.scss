@@ -1,9 +1,20 @@
 .navigeychin {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
+  // display: flex;
+
+  // align-items: center;
+  // margin-right: auto;
+
+  @media (max-width: 480px) {
+    height: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+  }
 
   &-logo {
+    align-items: center;
+    justify-content: center;
+
     margin-right: 90px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -17,7 +28,7 @@
     text-decoration: none;
   }
   &__contact > a {
-    display: flex;
+    // display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 32px;

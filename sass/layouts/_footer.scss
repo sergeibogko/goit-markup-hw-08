@@ -1,6 +1,6 @@
 .footer {
   background-color: #2f303a;
-  height: 252px;
+  // height: 252px;
 }
 .logo {
   width: 145px;
@@ -21,8 +21,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  display: inline-block;
-  justify-content: flex-end;
+  // display: inline-block;
+  // justify-content: flex-end;
   align-items: center;
 }
 .footer-adress {
@@ -39,8 +39,8 @@
   letter-spacing: 0.03em;
 }
 .footer-element {
-  display: flex;
-  justify-content: flex-start;
+  // display: flex;
+  // justify-content: flex-start;
   align-items: center;
 }
 .footer-adress a {
@@ -57,7 +57,7 @@
 .join {
   width: 206px;
   height: 80px;
-  margin-left: 70px;
+  padding-left: 70px;
 }
 .join-title {
   font-family: Roboto;

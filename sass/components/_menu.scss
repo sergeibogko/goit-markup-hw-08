@@ -1,5 +1,6 @@
 .menu {
-  display: flex;
+  // display: flex;
+  display: none;
 
   &-item:not(:last-child) {
     padding-right: 50px;
@@ -14,7 +15,7 @@
     line-height: 1.14;
   }
   &-item__link {
-    display: block;
+    // display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     margin-right: 0px;
@@ -26,7 +27,7 @@
     position: relative;
   }
   &-item__link-icon {
-    display: flex;
+    // display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 10px;

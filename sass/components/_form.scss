@@ -1,10 +1,10 @@
 .form {
-  display: block;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 570px;
-  height: 90px;
-  margin-top: 12px;
+  // display: block;
+  // flex-direction: column;
+  // justify-content: flex-start;
+  // width: 570px;
+  // height: 90px;
+  // margin-top: 12px;
 
   &-title {
     font-style: normal;
@@ -17,12 +17,12 @@
     color: $fons-color;
     margin-bottom: 14px;
   }
-  &-subscribe {
-    display: flex;
-  }
+  // &-subscribe {
+  //   display: flex;
+  // }
   &-mail {
-    width: 358px;
-    height: 50px;
+    // width: 358px;
+    // height: 50px;
     padding-left: 16px;
     margin-right: 0px;
     color: rgba(255, 255, 255, 0.6);
@@ -33,7 +33,7 @@
     outline: transparent;
   }
   &-btm {
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -41,8 +41,8 @@
 
     color: $fons-color;
     background-color: $accent-color;
-    width: 200px;
-    height: 50px;
+    // width: 200px;
+    // height: 50px;
     margin-left: 12px;
     border-radius: 4px;
 
@@ -55,7 +55,7 @@
   }
   &-btm::after {
     content: "";
-    display: inline-flex;
+    // display: inline-flex;
     justify-content: center;
     align-items: center;
 
