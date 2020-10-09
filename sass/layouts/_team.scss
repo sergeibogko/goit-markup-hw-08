@@ -1,14 +1,19 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: $background-team-color;
-  justify-content: center;
-  align-items: center;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
+  // background-color: $background-team-color;
+  // justify-content: center;
+  // align-items: center;
+  @media screen and (max-width: 480px) {
+    background-color: $background-team-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
-.team-list {
-  // display: flex;
-  justify-content: space-between;
-}
+// .team-list {
+//   // display: flex;
+//   justify-content: space-between;
+// }
 .team-list__personal {
   width: calc((100% - 30px x 3) / 4);
   // margin-right: 30px;

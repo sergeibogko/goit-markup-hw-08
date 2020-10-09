@@ -34,11 +34,28 @@ body {
 //   display: flex;
 // }
 .title {
-  color: $primery-text-color;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 50px;
+  // color: $primery-text-color;
+  // font-weight: bold;
+  // font-size: 36px;
+  // line-height: 1.17;
+  // text-align: center;
+  // margin-top: 0;
+  // margin-bottom: 50px;
+
+  @media screen and (max-width: 480px) {
+    color: $primery-text-color;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.18;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
 }
