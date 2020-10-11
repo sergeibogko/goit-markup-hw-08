@@ -41,8 +41,6 @@ body {
 }
 
 .title {
-  justify-content: center;
-  align-items: center;
   color: #212121;
   font-style: normal;
   font-weight: bold;
