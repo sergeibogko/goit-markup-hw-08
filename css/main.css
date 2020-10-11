@@ -41,6 +41,8 @@ body {
 }
 
 .title {
+  justify-content: center;
+  align-items: center;
   color: #212121;
   font-style: normal;
   font-weight: bold;
@@ -873,7 +875,6 @@ textarea {
 }
 
 .footer {
-  display: block;
   justify-content: center;
   align-items: center;
   background-color: #2f303a;
