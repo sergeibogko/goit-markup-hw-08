@@ -46,9 +46,9 @@
   letter-spacing: 0.03em;
   text-align: center;
 }
-.footer-element {
-  display: block;
-}
+// .footer-element {
+//   display: block;
+// }
 .footer-adress a {
   padding-bottom: 9px;
 }
@@ -62,8 +62,9 @@
   text-align: center;
 }
 .join {
-  display: block;
-
+  // display: block;
+  align-items: center;
+  justify-content: center;
   width: 206px;
   height: 80px;
   margin-top: 60px;

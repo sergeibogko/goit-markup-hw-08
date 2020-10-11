@@ -51,7 +51,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -926,10 +925,6 @@ textarea {
   text-align: center;
 }
 
-.footer-element {
-  display: block;
-}
-
 .footer-adress a {
   padding-bottom: 9px;
 }
@@ -945,7 +940,8 @@ textarea {
 }
 
 .join {
-  display: block;
+  align-items: center;
+  justify-content: center;
   width: 206px;
   height: 80px;
   margin-top: 60px;
