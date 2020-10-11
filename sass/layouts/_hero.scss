@@ -1,7 +1,7 @@
 .hero {
   // // display: flex;
   // background-color: #2f303a;
-  // // max-width: 1600px;
+  max-width: 1600px;
 
   // margin: auto;
 
@@ -26,7 +26,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 480px) {
+    width: 480px;
   }
   .hero-box {
     // padding-top: 200px;
@@ -37,11 +38,14 @@
     // // flex-direction: column;
     // text-align: center;
     // // display: flex;
+    width: 480px;
+    height: 400px;
     padding-top: 118px;
     padding-bottom: 118px;
     align-items: center;
     text-align: center;
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 480px) {
+      width: 480px;
     }
   }
   .hero-title {
@@ -67,8 +71,6 @@
     line-height: 1.62;
     text-transform: uppercase;
   }
-  @media (max-width: 480px) {
-  }
 }
 .button {
   width: 200px;
@@ -86,7 +88,4 @@
   font-family: inherit;
   border: transparent;
   outline: transparent;
-
-  @media screen and (max-width: 480px) {
-  }
 }

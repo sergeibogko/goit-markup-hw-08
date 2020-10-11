@@ -4,15 +4,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  max-width: 528px;
-  max-height: 581px;
+  width: 450px;
+  height: 609px;
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   @media screen and (min-width: 480px) {
     width: 450px;
-    height: 609px;
   }
 }
 .btm-close {
@@ -42,8 +42,8 @@
 }
 .modal-form {
   display: block;
-  // max-width: 528px;
-  // max-height: 581px;
+  width: 450px;
+  height: 609px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px 40px;
@@ -67,8 +67,8 @@ textarea {
   resize: none;
 }
 .form-fild {
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 10px;
   position: relative;
 }
@@ -101,7 +101,7 @@ textarea {
   padding: 12px 16px;
 }
 .form-fild-input {
-  width: 448px;
+  width: 370px;
   height: 40px;
   padding-left: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -120,10 +120,10 @@ textarea {
   fill: #2196f3;
 }
 .form-fild-coment {
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-  width: 448px;
+  width: 370px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 
@@ -147,15 +147,15 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 .modal-checkbox {
-  // display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -166,10 +166,11 @@ textarea {
   margin-right: 9px;
 }
 .form-polisy {
-  margin-right: 5px;
+  width: 370px;
+  height: 15px;
 }
 .modal-btm {
-  // display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -179,7 +180,7 @@ textarea {
   font-size: 16px;
   line-height: 1.87;
 
-  // display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   align-items: center;

@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   padding-top: 94px;
   padding-bottom: 94px;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
 }
 .elements {
   // display: flex;

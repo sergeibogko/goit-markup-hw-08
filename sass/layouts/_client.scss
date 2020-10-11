@@ -2,5 +2,15 @@
   // padding-top: 94px;
   // padding-bottom: 94px;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 66px;
+  margin: 0px;
+
+  width: 450px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
 }

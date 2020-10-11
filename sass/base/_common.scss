@@ -10,7 +10,6 @@ body {
   list-style: none;
 }
 .container {
-  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -41,21 +40,17 @@ body {
   // text-align: center;
   // margin-top: 0;
   // margin-bottom: 50px;
+  color: $primery-text-color;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.18;
 
-  @media screen and (max-width: 480px) {
-    color: $primery-text-color;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 1.18;
-    /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
 
-    text-align: center;
-    letter-spacing: 0.03em;
+  color: #212121;
 
-    color: #212121;
-
-    margin-top: 0;
-    margin-bottom: 30px;
-  }
+  margin-top: 0;
+  margin-bottom: 30px;
 }

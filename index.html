@@ -21,6 +21,28 @@
           <a href="" class="navigeychin-logo">
             <span class="accent">Web</span>Studio</a
           >
+          <button
+            type="button"
+            class="menu-buttom is-open"
+            aria-expanded="false"
+            data-menu-button
+          >
+            <svg
+              class="menu-buttom-icon"
+              width="20"
+              height="20"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="menu-buttom-icon-menu"
+                href="./images/sprite.svg#menu"
+              ></use>
+              <use
+                class="menu-buttom-icon-cross"
+                href="./images/sprite.svg#close-black"
+              ></use>
+            </svg>
+          </button>
           <ul class="list menu">
             <li class="menu-item">
               <a href="" class="menu-item__link current">Студия</a>
@@ -67,7 +89,7 @@
       </section>
       <section class="features">
         <div class="container">
-          <h2 class="featur-title">особенности</h2>
+          <h2 class="features-titles">особенности</h2>
           <ul class="list features-list">
             <li class="features-item">
               <a class="features-item__icon" href=""
@@ -595,7 +617,6 @@
               placeholder="Email"
               class="form-mail"
             />
-
             <button type="submit" class="form-btm">Подписаться</button>
           </form>
         </div>
@@ -661,8 +682,10 @@
             <div class="modal-checkbox">
               <input type="checkbox" name="" id="policy" />
               <label for="policy" class="checkbox"></label>
-              <span class="form-polisy">Соглашаюсь с рассылкой и принимаю</span>
-              <a href="">Условия договора</a>
+              <span class="form-polisy"
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="">Условия договора</a></span
+              >
             </div>
             <div class="modal-btm">
               <button type="submit" class="modal-button">Отправить</button>
@@ -672,5 +695,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/buttom-menu.js"></script>
   </body>
 </html>

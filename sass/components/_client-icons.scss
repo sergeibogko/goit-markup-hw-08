@@ -1,24 +1,12 @@
 .client-icons {
-  // display: flex;
-  // justify-content: space-between;
-  // margin-top: 0px;
-  width: 450px;
-  height: 393px;
-  @media screen and (min-width: 480px) {
-    width: 450px;
-    height: 393px;
-  }
+  display: flex;
+  flex-wrap: wrap;
 
   &__item {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
   }
   &__link {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
@@ -34,13 +22,10 @@
       height: 90px;
     }
   }
-  &__item:nth-child(2n + 1) {
-    margin-right: 0px;
-  }
 
-  // &__item:not(:last-child) {
-  //   margin-right: 30px;
-  // }
+  &__item:nth-child(odd) {
+    margin-right: 30px;
+  }
   &__icon {
     fill: #afb1b8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

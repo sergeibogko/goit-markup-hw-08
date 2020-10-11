@@ -1,50 +1,29 @@
 .features {
-  // padding-top: 90px;
-  // padding-bottom: 90px;
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.featur-title {
-  margin: 0px;
-  padding: 0px;
-  display: none;
-}
-.features-list {
+  width: 450px;
+  height: 994px;
+
   @media screen and (min-width: 480px) {
+    width: 480px;
   }
 }
-.features-title {
-  // margin-bottom: 10px;
 
-  // color: $primery-text-color;
-  // font-weight: bold;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.03em;
-  // text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.features-titles {
+  display: none;
+}
+
+.features-title {
+  text-align: center;
   color: $primery-text-color;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  @media screen and (min-width: 480px) {
-  }
 }
 .features-text {
-  // display: flex;
-  // align-content: stretch;
-  // width: 270px;
-  // align-items: center;
-
-  // color: $text-color;
-  // font-weight: normal;
-  // font-size: 14px;
-  // line-height: 1.71;
   width: 270px;
   height: 16px;
   display: block;
@@ -55,15 +34,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  @media screen and (max-width: 480px) {
-    width: 270px;
-    height: 16px;
-  }
 }
-.features-icon {
-  @media screen and (max-width: 480px) {
-  }
-}
+
 .features-item__icon {
   display: flex;
   align-items: center;
@@ -73,10 +45,6 @@
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  @media screen and (min-width: 480px) {
-    width: 450px;
-    height: 120px;
-  }
 }
 // .features-list {
 //   // display: flex;
@@ -90,14 +58,10 @@
 
   width: 450px;
   height: 50px;
-  @media screen and (max-width: 480px) {
-    width: 450px;
-    height: 50px;
-  }
 }
-.features-text:nth-child(4n) {
-  margin: 0;
-}
-.features-item:nth-last-child(- n + 4) {
-  margin: 0px;
-}
+// .features-text:nth-child(4n) {
+//   margin: 0;
+// }
+// .features-item:nth-last-child(- n + 4) {
+//   margin: 0px;
+// }
