@@ -53,7 +53,6 @@ body {
 }
 
 .menu-buttom {
-  display: inline-flex;
   margin: 0px;
   padding: 0px;
   border: none;
@@ -116,21 +115,17 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 480px) {
-  .navigeychin {
-    height: 60px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 15px;
-  }
+.navigeychin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navigeychin-logo {
-  align-items: center;
-  justify-content: center;
-  margin-right: 90px;
-  padding-top: 25px;
-  padding-bottom: 25px;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -195,6 +190,13 @@ body {
 .header a:focus {
   color: #2196f3;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header .flexbox {
+  width: 480px;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .accent {
@@ -295,8 +297,9 @@ body {
 }
 
 .form {
-  width: 450px;
-  height: 156px;
+  display: block;
+  align-items: center;
+  justify-content: center;
   margin-top: 60px;
 }
 
@@ -309,6 +312,11 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 14px;
+}
+
+.form-subscribe {
+  width: 450px;
+  height: 156px;
 }
 
 .form-mail {
@@ -325,12 +333,10 @@ body {
 }
 
 .form-btm {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   letter-spacing: 0.06em;
   margin-top: 20px;
+  margin-left: 130px;
   color: #ffffff;
   background-color: #2196f3;
   width: 200px;
@@ -373,6 +379,7 @@ body {
 
 .join-icons__item {
   display: flex;
+  align-items: center;
   justify-content: center;
   width: 50px;
   height: 50px;
@@ -398,10 +405,23 @@ body {
 }
 
 .button-nav {
-  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 362px;
+  height: 91px;
+  margin-bottom: 40px;
+}
+
+.button-nav > li {
+  margin-right: 8px;
+  margin-bottom: 15px;
 }
 
 .button-navigeychin {
+  width: 100%;
+  height: 100%;
   border: 0;
   border-radius: 4px;
   padding: 6px 22px;
@@ -649,7 +669,6 @@ textarea {
 }
 
 .hero {
-  max-width: 1600px;
   width: 480px;
   height: 400px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desctop-from-web/hero-480.jpg);
@@ -658,13 +677,11 @@ textarea {
   background-size: cover;
 }
 
-@media screen and (min-width: 480px) {
-  .hero {
-    width: 480px;
-  }
-}
-
 .hero .hero-box {
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
   width: 480px;
   height: 400px;
   padding-top: 118px;
@@ -692,6 +709,9 @@ textarea {
 }
 
 .button {
+  display: block;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -724,6 +744,13 @@ textarea {
 }
 
 .features-title {
+  width: 270px;
+  height: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: #212121;
   font-weight: bold;
@@ -734,11 +761,8 @@ textarea {
 }
 
 .features-text {
-  width: 270px;
-  height: 16px;
-  display: block;
-  align-items: center;
-  justify-content: center;
+  width: 450px;
+  height: 50px;
   color: #757575;
   font-weight: normal;
   font-size: 14px;
@@ -753,11 +777,6 @@ textarea {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-}
-
-.features-text {
-  width: 450px;
-  height: 50px;
 }
 
 .doing {
@@ -813,6 +832,9 @@ textarea {
 }
 
 .team {
+  align-items: center;
+  justify-content: center;
+  width: 480px;
   background-color: #f5f4fa;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -825,10 +847,14 @@ textarea {
 }
 
 .team-list {
+  display: block;
+  align-items: center;
+  justify-content: center;
   width: 450px;
 }
 
 .team-list__personal {
+  width: 450px;
   margin-bottom: 30px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -872,6 +898,7 @@ textarea {
 }
 
 .footer {
+  display: block;
   justify-content: center;
   align-items: center;
   background-color: #2f303a;
@@ -886,8 +913,9 @@ textarea {
 }
 
 .logo {
-  width: 154px;
   padding-top: 54px;
+  align-items: center;
+  justify-content: center;
   color: #ffffff;
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -899,9 +927,7 @@ textarea {
 .address {
   justify-content: center;
   align-items: center;
-  width: 232px;
-  height: 79px;
-  margin: 0px;
+  padding-bottom: 8px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -909,10 +935,13 @@ textarea {
 }
 
 .footer-adress {
-  width: 251px;
+  justify-content: center;
+  align-items: center;
 }
 
 .address-text {
+  justify-content: center;
+  align-items: center;
   margin-bottom: 8px;
   color: #ffffff;
   font-style: normal;
@@ -923,8 +952,14 @@ textarea {
   text-align: center;
 }
 
-.footer-adress a {
-  padding-bottom: 9px;
+.footer-element {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-adress > .a {
+  margin-bottom: 8px;
 }
 
 .footer-link {
@@ -938,14 +973,16 @@ textarea {
 }
 
 .join {
+  display: block;
   align-items: center;
   justify-content: center;
-  width: 206px;
-  height: 80px;
   margin-top: 60px;
 }
 
 .join-title {
+  display: block;
+  align-items: center;
+  justify-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -955,12 +992,9 @@ textarea {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-  width: 145px;
 }
 
 .portfolio {
-  display: block;
-  flex-wrap: wrap;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -971,12 +1005,27 @@ textarea {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio {
+    width: 768px;
+  }
+}
+
 .elements {
+  display: flex;
+  width: 450px;
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+  .elements {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .elemens {
-  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #ececec;

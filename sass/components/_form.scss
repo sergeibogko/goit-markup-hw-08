@@ -1,6 +1,9 @@
 .form {
-  width: 450px;
-  height: 156px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  // width: 450px;
+  // height: 156px;
   margin-top: 60px;
 
   &-title {
@@ -15,9 +18,11 @@
     color: $fons-color;
     margin-bottom: 14px;
   }
-  // &-subscribe {
-  //   display: flex;
-  // }
+  &-subscribe {
+    // display: flex;
+    width: 450px;
+    height: 156px;
+  }
   &-mail {
     align-items: center;
     justify-content: center;
@@ -32,19 +37,20 @@
     outline: transparent;
   }
   &-btm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: block;
+    // align-items: center;
+    // justify-content: center;
     text-align: center;
 
     letter-spacing: 0.06em;
     margin-top: 20px;
+    margin-left: 130px;
 
     color: $fons-color;
     background-color: $accent-color;
     width: 200px;
     height: 50px;
-    // margin-left: 12px;
+
     border-radius: 4px;
 
     font-style: normal;

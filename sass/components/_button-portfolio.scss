@@ -1,14 +1,21 @@
 .button-nav {
-  // display: flex;
-  // justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 362px;
+  height: 91px;
+  margin-bottom: 40px;
 
-  // & > li {
-  //   margin-right: 10px;
-  //   padding-bottom: 50px;
-  // }
+  & > li {
+    margin-right: 8px;
+    margin-bottom: 15px;
+    // padding-bottom: 50px;
+  }
 }
 .button-navigeychin {
+  width: 100%;
+  height: 100%;
   border: 0;
   border-radius: 4px;
   padding: 6px 22px;

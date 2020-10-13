@@ -1,23 +1,26 @@
 .navigeychin {
-  // display: flex;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   // align-items: center;
   // margin-right: auto;
 
   @media screen and (min-width: 480px) {
-    height: 60px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 15px;
   }
 
   &-logo {
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
 
-    margin-right: 90px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    // margin-right: 90px;
+    // padding-top: 25px;
+    // padding-bottom: 25px;
 
     font-weight: bold;
     font-size: 26px;
