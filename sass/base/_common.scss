@@ -22,6 +22,8 @@ body {
   }
   @include for-size(tablet) {
     width: 768px;
+    display: flex;
+    flex-wrap: wrap;
   }
   @include for-size(desktop) {
     width: 1600px;
