@@ -9,6 +9,9 @@
   padding: 0px;
   border: none;
   background-color: transparent;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .menu-buttom .icon-cross {
@@ -38,8 +41,15 @@
 }
 
 .menu {
-  // display: flex;
+  display: flex;
   display: none;
+
+  @media screen and (min-width: 768px) {
+    width: 294px;
+    height: 48px;
+
+    display: block;
+  }
 
   &-item:not(:last-child) {
     padding-right: 50px;
@@ -54,7 +64,7 @@
     line-height: 1.14;
   }
   &-item__link {
-    // display: block;
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     margin-right: 0px;
@@ -66,7 +76,7 @@
     position: relative;
   }
   &-item__link-icon {
-    // display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 10px;

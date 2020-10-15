@@ -13,23 +13,17 @@
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    height: 1285px;
-    display: block;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
   }
 }
 .team-list {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 450px;
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    display: block;
-    margin: 0px;
   }
 }
 
@@ -48,20 +42,17 @@
 
   @media screen and (min-width: 768px) {
     width: 354px;
+
     display: block;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    margin-right: 30px;
   }
   // @media screen and (max-width: 1600px) {
   //   width: calc((100% - 30px x 3) / 4);
   // }
 }
 
-.team-list__personal:nth-child(2n) {
-  @media screen and (min-width: 768px) {
-    margin-right: 0px;
-  }
+.team-list__personal:nth-child(even) {
+  margin-right: 0px;
 }
 
 .imag-team {
