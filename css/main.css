@@ -75,7 +75,7 @@ body {
   }
 }
 
-.menu-buttom {
+.menu-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -88,21 +88,25 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .menu-buttom {
+  .menu-button {
     display: none;
   }
 }
 
-.menu-buttom .icon-cross {
+.menu-button .icon-cross {
   display: none;
 }
 
-.menu-buttom .is-open .icon-cross {
+.menu-button .is-open .icon-cross {
   display: block;
 }
 
-.menu-buttom .is-open .icon-menu {
+.menu-button .is-open .icon-menu {
   display: none;
+}
+
+.menu-button .icon-menu {
+  display: block;
 }
 
 .menu-container {
@@ -352,7 +356,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .client-icons {
     width: 1170px;
     height: 120px;
@@ -381,13 +385,13 @@ body {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .client-icons__item:nth-child(3n) {
     margin-right: 30px;
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .client-icons__item:nth-child(6n) {
     margin-right: 0px;
   }
@@ -418,7 +422,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .client-icons__link {
     width: 170px;
     height: 90px;
@@ -1172,7 +1176,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .team-list {
     width: 1600px;
   }
@@ -1199,7 +1203,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .team-list__personal {
     width: 270px;
     height: 428px;
@@ -1212,7 +1216,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .team-list__personal:nth-child(even) {
     margin-right: 30px;
   }
@@ -1236,19 +1240,23 @@ textarea {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .imag-team {
     width: 270px;
     height: 260px;
   }
 }
 
-.team-list__personal:nth-child(4n) {
-  margin-right: 0px;
+@media screen and (min-width: 1600px) {
+  .team-list__personal:nth-child(4n) {
+    margin-right: 0px;
+  }
 }
 
-.team-list__personal:nth-last-child(- n + 4) {
-  margin-right: 0px;
+@media screen and (min-width: 1600px) {
+  .team-list__personal:nth-last-child(- n + 4) {
+    margin-right: 0px;
+  }
 }
 
 .team-list--naim {

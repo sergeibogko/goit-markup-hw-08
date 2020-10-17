@@ -1,4 +1,4 @@
-.menu-buttom {
+.menu-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -14,14 +14,17 @@
   }
 }
 
-.menu-buttom .icon-cross {
+.menu-button .icon-cross {
   display: none;
 }
-.menu-buttom .is-open .icon-cross {
+.menu-button .is-open .icon-cross {
   display: block;
 }
-.menu-buttom .is-open .icon-menu {
+.menu-button .is-open .icon-menu {
   display: none;
+}
+.menu-button .icon-menu {
+  display: block;
 }
 .menu-container {
   display: none;
