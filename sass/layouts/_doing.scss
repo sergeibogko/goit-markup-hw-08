@@ -2,9 +2,12 @@
   display: none;
   padding-top: 0px;
   margin-bottom: 94px;
+  @media screen and (min-width: 1600px) {
+    display: block;
+  }
 }
 .doing-list {
-  // display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -25,7 +28,7 @@
   height: auto;
 }
 .doing-item__text {
-  // display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 

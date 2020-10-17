@@ -13,6 +13,9 @@
 
     margin-bottom: 14px;
   }
+  @media screen and (min-width: 1600px) {
+    margin-bottom: 50px;
+  }
 
   & > li {
     margin-right: 8px;

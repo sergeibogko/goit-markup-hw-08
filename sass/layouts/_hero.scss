@@ -1,19 +1,11 @@
 .hero {
-  // background-color: #2f303a;
-  // max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f303a;
+  max-width: 1600px;
+  max-height: 600px;
 
-  // margin: auto;
-
-  // background-image: linear-gradient(
-  //     to right,
-  //     rgba(47, 48, 58, 0.4),
-  //     rgba(47, 48, 58, 0.4)
-  //   ),
-  //   url(../images/hero.jpg);
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-size: cover;
-  width: 480px;
   height: 400px;
 
   background-image: linear-gradient(
@@ -31,7 +23,6 @@
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    height: 400px;
 
     background-image: linear-gradient(
         to right,
@@ -39,63 +30,54 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/desctop-from-web/hero-768.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
-  .hero-box {
-    // padding-top: 200px;
-    // padding-bottom: 200px;
-    // letter-spacing: 0.06em;
-
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    display: flex;
-    width: 360px;
-    height: 164px;
-    padding-top: 118px;
-    padding-bottom: 118px;
-    align-items: center;
-    text-align: center;
-    @media screen and (min-width: 480px) {
-      width: 480px;
-    }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/desctop-from-web/hero-1600.jpg);
   }
-  .hero-title {
-    // width: 360px;
 
+  &-title {
     // margin-top: 0px;
     // margin-bottom: 0px;
-    // align-items: center;
 
-    // color: $fons-color;
-    // font-weight: 900;
-    // font-size: 44px;
-    // line-height: 1.36;
-    // text-transform: uppercase;
     width: 360px;
-    height: 84px;
-    margin-left: 50px;
-    margin-right: 50px;
 
+    margin: auto;
+    padding-bottom: 30px;
     color: $fons-color;
     font-weight: 900;
     font-size: 26px;
     line-height: 1.62;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-align: center;
     @media screen and (min-width: 480px) {
-      width: 480px;
+      width: 360px;
+    }
+
+    @media screen and (min-width: 1600px) {
+      width: 696px;
+      height: 120px;
+      margin-bottom: 30px;
+      padding: 0px;
+      font-size: 44px;
+      line-height: 1.36;
     }
   }
 }
+
 .button {
-  display: block;
-  align-items: center;
-  justify-content: center;
   width: 200px;
   height: 50px;
 
+  margin: 0px 140px;
+  padding: 0px;
   border-radius: 4px;
 
   color: $fons-color;

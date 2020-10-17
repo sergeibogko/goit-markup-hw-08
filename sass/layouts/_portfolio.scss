@@ -1,7 +1,4 @@
 .portfolio {
-  // display: flex;
-  // flex-wrap: wrap;
-
   padding-top: 94px;
   padding-bottom: 94px;
   @media screen and (min-width: 480px) {
@@ -14,6 +11,11 @@
     padding-top: 62px;
     padding-bottom: 62px;
   }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .elements {
   display: flex;
@@ -25,6 +27,9 @@
     display: flex;
     flex-wrap: wrap;
   }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+  }
 }
 .elemens {
   // width: 450px;
@@ -34,6 +39,10 @@
   @media screen and (min-width: 768px) {
     width: 354px;
     margin-bottom: 66px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 370px;
+    height: 404px;
   }
 }
 // .elemens:last-child {
@@ -94,6 +103,9 @@
 .elemens:nth-child(2n) {
   @media screen and (min-width: 768px) {
     margin-right: 0px;
+  }
+  @media screen and (min-width: 1600px) {
+    margin-right: 30px;
   }
 }
 .elemens:nth-child(3n) {

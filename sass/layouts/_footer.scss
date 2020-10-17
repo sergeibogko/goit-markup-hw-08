@@ -1,18 +1,17 @@
 .footer {
-  display: block;
-  justify-content: center;
-  align-items: center;
-
+  margin: auto;
   background-color: #2f303a;
-  width: 480px;
-  height: 603px;
+
   @media screen and (min-width: 480px) {
     width: 480px;
   }
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    height: 463px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    height: 252px;
   }
 }
 .logo {
@@ -40,6 +39,9 @@
   font-size: 14px;
   line-height: 1.71;
   text-align: center;
+  @media screen and (min-width: 1600px) {
+    display: block;
+  }
 }
 .footer-adress {
   justify-content: center;
@@ -58,17 +60,7 @@
   letter-spacing: 0.03em;
   text-align: center;
 }
-.footer-element {
-  display: block;
-  justify-content: center;
-  align-items: center;
 
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 .footer-adress > .a {
   margin-bottom: 8px;
 }
@@ -85,19 +77,22 @@
   display: block;
   align-items: center;
   justify-content: center;
-  width: 206px;
-  height: 80px;
+
   margin-top: 60px;
 
   @media screen and (min-width: 768px) {
     margin-top: 0px;
     margin-left: 165px;
   }
+  @media screen and (min-width: 1600px) {
+    margin-left: 70px;
+  }
 }
 .join-title {
   display: block;
   align-items: center;
   justify-content: center;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -107,8 +102,6 @@
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-
-  // width: 145px;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 20px;

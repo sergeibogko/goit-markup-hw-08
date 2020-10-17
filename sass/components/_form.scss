@@ -5,6 +5,13 @@
   // width: 450px;
   // height: 156px;
   margin-top: 60px;
+  @media screen and (min-width: 1600px) {
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   &-title {
     text-align: center;
@@ -17,11 +24,19 @@
 
     color: $fons-color;
     margin-bottom: 14px;
+    @media screen and (min-width: 1600px) {
+      margin-left: 0px;
+    }
   }
   &-subscribe {
-    // display: flex;
     width: 450px;
     height: 156px;
+
+    @media screen and (min-width: 1600px) {
+      display: flex;
+      width: 500px;
+      height: 40px;
+    }
   }
   &-mail {
     align-items: center;
@@ -35,11 +50,13 @@
     border-radius: 4px;
     background-color: transparent;
     outline: transparent;
+
+    @media screen and (min-width: 1600px) {
+      width: 358px;
+      height: 50px;
+    }
   }
   &-btm {
-    // display: block;
-    // align-items: center;
-    // justify-content: center;
     text-align: center;
 
     letter-spacing: 0.06em;
@@ -59,6 +76,13 @@
     line-height: 1.87;
     border: transparent;
     outline: transparent;
+
+    @media screen and (min-width: 1600px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 12px;
+    }
   }
   &-btm::after {
     content: "";

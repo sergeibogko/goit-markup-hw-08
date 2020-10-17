@@ -29,6 +29,8 @@ body {
     width: 1600px;
     padding-left: 215px;
     padding-right: 215px;
+    align-items: center;
+    justify-content: center;
   }
 }
 // .flexbox {
@@ -62,5 +64,9 @@ body {
 
   @media screen and (min-width: 768px) {
     width: 768px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    margin-bottom: 50px;
   }
 }
