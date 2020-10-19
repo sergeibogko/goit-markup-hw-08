@@ -16,43 +16,66 @@
   </head>
   <body>
     <header class="header">
-      <div class="container flexbox">
+      <div class="container">
         <nav class="navigeychin">
           <a href="" class="navigeychin-logo">
             <span class="accent">Web</span>Studio</a
           >
-          <ul class="list menu">
-            <li class="menu-item">
-              <a href="./index.html" class="menu-item__link">Студия</a>
-            </li>
-            <li class="menu-item">
-              <a href="./portfolio.html" class="menu-item__link current"
-                >Портфолио</a
-              >
-            </li>
-            <li class="menu-item">
-              <a href="" class="menu-item__link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="list menu">
-          <li class="navigeychin__contact">
-            <a class="menu-item__link" href="mailto:info@devstudio.com">
-              <svg class="menu-item__link-icon" width="16" height="16">
-                <use href="./images/sprite.svg#envelope"></use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="navigeychin__contact">
-            <a class="menu-item__link" href="tel:+380991111111">
-              <svg class="menu-item__link-icon" width="10" height="16">
-                <use href="./images/sprite.svg#fone"></use>
-              </svg>
-              +380991111111</a
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              width="24"
+              height="16"
+              aria-label="Переключатель мобильного меню"
             >
-          </li>
-        </ul>
+              <use
+                class="icon-cross"
+                href="./images/sprite.svg#close-black"
+              ></use>
+              <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+            </svg>
+          </button>
+          <div class="menu-container" id="menu-container" data-menu>
+            <div class="navigation">
+              <ul class="list menu-navigation">
+                <li class="menu-item">
+                  <a href="./index.html" class="menu-item__link">Студия</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-item__link current">Портфолио</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-item__link">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="contacts">
+              <ul class="list menu-contacts">
+                <li class="navigeychin__contact">
+                  <a class="menu-item__link" href="mailto:info@devstudio.com">
+                    <svg class="menu-item__link-icon" width="16" height="16">
+                      <use href="./images/sprite.svg#envelope"></use>
+                    </svg>
+                    info@devstudio.com
+                  </a>
+                </li>
+                <li class="navigeychin__contact">
+                  <a class="menu-item__link" href="tel:+380991111111">
+                    <svg class="menu-item__link-icon" width="10" height="16">
+                      <use href="./images/sprite.svg#fone"></use>
+                    </svg>
+                    +380991111111</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
     <main>
@@ -244,5 +267,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>

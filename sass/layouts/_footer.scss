@@ -27,6 +27,13 @@
   font-size: 24px;
   line-height: 1.17;
   text-align: center;
+  @media screen and (min-width: 1600px) {
+    width: 145px;
+    height: 31px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 60px;
+  }
 }
 .address {
   justify-content: center;
@@ -41,11 +48,20 @@
   text-align: center;
   @media screen and (min-width: 1600px) {
     display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    padding-bottom: 0px;
   }
 }
 .footer-adress {
   justify-content: center;
   align-items: center;
+  @media screen and (min-width: 1600px) {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 .address-text {
   justify-content: center;
@@ -85,7 +101,10 @@
     margin-left: 165px;
   }
   @media screen and (min-width: 1600px) {
+    width: 206px;
+    height: 80px;
     margin-left: 70px;
+    // margin-bottom: 20px;
   }
 }
 .join-title {
