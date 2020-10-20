@@ -22,8 +22,10 @@
     margin-bottom: 15px;
     // padding-bottom: 50px;
   }
-  & > li:last-child {
-    margin-right: 0px;
+  & > li:nth-child(3n) {
+    @media screen and (min-width: 480px) {
+      margin-right: 0px;
+    }
   }
 }
 

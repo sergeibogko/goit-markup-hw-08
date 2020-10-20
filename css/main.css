@@ -881,8 +881,10 @@ body {
   margin-bottom: 15px;
 }
 
-.button-nav > li:last-child {
-  margin-right: 0px;
+@media screen and (min-width: 480px) {
+  .button-nav > li:nth-child(3n) {
+    margin-right: 0px;
+  }
 }
 
 .button-navigeychin {
